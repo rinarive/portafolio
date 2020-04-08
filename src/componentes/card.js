@@ -66,7 +66,7 @@ const OutlinedCard = (props) => {
                                     adjective
         </Typography>
                                 <Typography variant="body2" component="p">
-                                    well meaning and kindly.
+                                   {item.description}
           <br />
                                     {'"a benevolent smile"'}
                                 </Typography>
