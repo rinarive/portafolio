@@ -1,10 +1,13 @@
-import {React} from "react";
-import {Link} from "react-router-dom";
-function Contact() {
-    return (
-      <div>
-        <Link to="/contact">Contact</Link>
-      </div>
-    );
-  }
-export default Contact
+import React, { Component } from 'react';
+
+class Contact extends Component {
+	render() {
+		return (
+			<div>
+				<h1>TEMPLATE CONTACT</h1>
+			</div>
+		);
+	}
+}
+
+export default  Contact ;

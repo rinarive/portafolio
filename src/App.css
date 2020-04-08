@@ -1,11 +1,66 @@
+
 .App {
   text-align: center;
+  min-height: 100vh;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+
+ min-width: .5rem;
+ display: flex;
+ flex-wrap:nowrap ;
+
 }
+
+.name{
+  margin-top: 45%;
+  color: #9b142b;
+  font-size: calc(20px + 2vmin);
+  font-family: 'Montserrat', sans-serif;
+  min-height: .5vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content:flex-end;
+}
+.second{
+  color: #9b142b;
+  font-size: calc(20px + 2vmin);
+  font-family: 'Montserrat', sans-serif;
+}
+
+ .avatar{
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+ }
+  
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left:25%;
+      margin-left: -512px;   /* 50% */
+    }
+    .second{
+      font-size: calc(3px + 2vmin);
+    }
+    .name{
+      font-size: calc(3px + 2vmin);
+    }
+  
+    .about{
+  visibility: hidden;
+    }
+    .cardContainer{
+      margin-left: 0px;
+      font-size: calc(3px + 2vmin);
+    }
+    .titleText{
+      font-size: calc(2px + 8vmin);
+    }
+ 
+    }
+  
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,21 +68,28 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav {
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-wrap:nowrap ;
+  font-size: calc(.5px + 2vmin);
   color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.Link {
+  color: #f1bb09;
+ padding: 15px;
+ font-family: 'Montserrat', sans-serif;
+  
 }
-
+.Link:hover{
+  text-decoration: none;
+  color: #9b142b;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
