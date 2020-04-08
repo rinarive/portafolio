@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 
 //import CustomizedButtons from './buttons'
 import { Button } from 'react-bootstrap'
+import { Item } from 'react-bootstrap/lib/Breadcrumb';
 
 const useStyles = makeStyles({
     root: {
@@ -63,12 +64,11 @@ const OutlinedCard = (props) => {
                                 {item.title}
         </Typography>
                                 <Typography className={classes.pos} color="textSecondary">
-                                    adjective
+                                {item.subtitle}
         </Typography>
                                 <Typography variant="body2" component="p">
-                                   {item.description}
-          <br />
-                                    {'"a benevolent smile"'}
+                                {item.description}
+        
                                 </Typography>
                             </CardContent>
                             <CardActions>
