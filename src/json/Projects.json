@@ -54,7 +54,7 @@
         "tools": "Javascript, HTML5, CSS3, Flexbox, Bootstrap, API: Movie Database",
         "subtitle": "Aplicación web ",
         "description": "Consume API y muestra \n películas de hasta 70min.",
-        "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/oscar.png?raw=true",
+        "logo": "https://github.com/rinarive/final-commoncore/blob/master/src/imagenes/LOGO.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Hello-im-Oscar.png?raw=true",
         "url": "https://tamaramunoz.github.io/SCL012-proyecto-peliculas/src/index.html",
         "repo": "https://github.com/tamaramunoz/SCL012-proyecto-peliculas"
