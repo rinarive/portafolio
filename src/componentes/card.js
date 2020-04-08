@@ -37,7 +37,7 @@ const useStyles = makeStyles({
         alignItems: 'center',
         justifyContent: 'space-betwen',
         direction: "row",
-        
+        minWidth:100,
 
     },
     media: {
