@@ -1,14 +1,4 @@
 [
-    {   
-        "id": 8,
-        "title": "Rena Rivero",
-        "tools": "ReactJS, HTML5, CSS3, Material ui, Firebase",
-        "description": "Portafolio",
-        "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/portafolio.png?raw=true",
-        "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Portafolio.png?raw=true",
-        "url": "https://portfolio-4f3ec.firebaseapp.com/",
-        "repo": "https://github.com/tamaramunoz/Portfolio-react"
-    },
 
     {
         "id": 7,
